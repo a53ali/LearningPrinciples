@@ -1,0 +1,44 @@
+*******************************************************************************************
+ENSCAPULATION
+
+* Binding the data with the code that manipulates it.
+* It keeps the data and the code safe from external interference
+
+*******************************************************************************************
+
+INHERITANCE
+
+* Inheritance is the mechanism by which an object acquires the some/all properties of another object.
+* It supports the concept of hierarchical classification.
+
+Simple Example: Car is a classification of Four Wheeler. Here Car acquires the properties of a four-wheeler. Other classifications could be a jeep, tempo, van etc.
+
+*******************************************************************************************
+
+POLYMORPHISM
+
+* It is a  feature that allows one interface to be used for a general class of  actions.
+* An operation may exhibit different behavior in different instances.
+* The behavior depends on the types of data used in the operation.
+* It plays an important role in allowing objects having different internal structures to share the same external interface.
+* Polymorphism is extensively used in implementing inheritance.
+
+OVERRIDE
+
+Rules for Method Overriding:
+
+Child class has the same method as of base class. In such cases child class overrides the parent class method without even touching the source code of the base class.
+
+* applies only to inherited methods
+* object type (NOT reference variable type) determines which overridden method will be used at runtime
+* Overriding method can have different return type
+* Overriding method must not have more restrictive access modifier
+* Abstract methods must be overridden
+* Static and final methods cannot be overridden
+* Constructors cannot be overridden
+* It is also known as Runtime polymorphism.
+
+
+OVERLOAD
+
+To call an overloaded method in Java, it is must to use the type and/or number of arguments to determine which version of the overloaded method to actually call.
